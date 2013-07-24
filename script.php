@@ -6,11 +6,13 @@
 	
 	echo "<form name=\"queue\" action=\"javascript:play()\">";
 	
+	/*For each filename in the directory, create a button.
+		We ignore '.', '..', and the thumbnails directory.
+	*/
 	while (false !== ($filename = readdir($dh))) {
 		if ($filename !== "." and $filename !== ".." and $filename !== "thumbnails"){
 			$thumbnail = basename($dir . $filename, ".webm") . ".jpg";
 			$filename_output .= "<div id=\"videoSection\">";
-			/*$filename_output .= "<input type=\"button\" id=\"videoThumb\" src=\"videos/thumbnails/" . $thumbnail . "\" name=\"videos\" value=\"" . $filename . "\" onclick=\"addToList(this.value);\">";*/
 			$filename_output .= "<button type=\"button\" name=\"videos\" id= \"" . $filename . "\" value=\"" . $filename . "\" onclick=\"addToList(this.value)\"><img class=\"videoThumb\" src=\"videos/thumbnails/" . $thumbnail . "\"></button>";
 			$filename_output .= "<p>" . $filename . "</p></div>";
 		}

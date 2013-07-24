@@ -1,18 +1,21 @@
-/*Queue*/
+/*Queue
+*/
 
 var list = [];
 counter = 0;
 
+/*addToList() takes the filename and add it to the array 'list'.
+	This function should fire each time a button is pressed.
+*/
 function addToList(filename){
-	//document.write("Did addToList() fire?");
 	list.push(filename);
 	document.getElementById(filename).style.background = "green";
 }
 
+/*play() should fire when the submit button is pressed. It uses the Video.js API
+	to manipulate the player.
+*/
 function play(){
-	//document.write("Did play() fire?");
-	//for (counter=0; counter<list.length; counter++)
-	//	document.write(list[counter] + "<br>");
 	document.getElementById('my_video_player').style.display = "block";
 	var player = videojs("video_player1");
 	
