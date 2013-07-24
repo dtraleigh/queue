@@ -13,6 +13,7 @@ Prerequisites:
   - WAMP server
   - Videos must be in .webm format
   - Videos need thumbnail in .jpg format
+  - Familiarity with Video.js
 
 Videos
 
