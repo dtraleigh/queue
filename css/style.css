@@ -58,6 +58,23 @@ p {
   font: 400 17px/1.6 'Kameron', Georgia, serif;
 }
 
+<<<<<<< HEAD
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+=======
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 #wrapper{
 	max-width:1000px;
 	width:100%;
@@ -79,13 +96,80 @@ p {
 	text-align: center;
 }
 
+<<<<<<< HEAD
+#content{
+	background: #F4F4F4;
+	float: left;
+    width: 100%;
+}
+
+#left-content{
+	width:70%;
+	float:left;
+}
+
+#right-content{
+	width:20%;
+	position:fixed;
+	right:190px;
+}
+
+#queue-form{
+	width:100%;
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: 0.5em 1.3em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+=======
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 .videoThumb{
 	width: 100%;
 	margin-top: 4px;
 }
 
 #videoSection{
+<<<<<<< HEAD
+	width: 29%;
+=======
 	width: 30%;
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 	float: left;
 	height: 200px;
 	padding: 15px;
@@ -93,8 +177,11 @@ p {
 }
 
 #startButton{
+<<<<<<< HEAD
+=======
 	position: fixed;
 	top: 150px;
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
@@ -114,6 +201,10 @@ p {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #7cacde;
+<<<<<<< HEAD
+	margin: 25px;
+=======
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 }
 #startButton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
@@ -129,7 +220,14 @@ p {
 #my_video_player{
 	position: fixed;
 	top: 50%;
+<<<<<<< HEAD
+	left: 45%;
+	margin-top: -300px;
+	margin-left: -400px;
+}
+=======
 	left: 50%;
 	margin-top: -300px;
 	margin-left: -400px;
 }
+>>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
