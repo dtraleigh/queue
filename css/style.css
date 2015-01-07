@@ -58,7 +58,6 @@ p {
   font: 400 17px/1.6 'Kameron', Georgia, serif;
 }
 
-<<<<<<< HEAD
 ol {
     counter-reset: li; /* Initiate a counter */
     list-style: none; /* Remove default numbering */
@@ -73,8 +72,6 @@ ol ol {
     margin: 0 0 0 2em; /* Add some left margin for inner lists */
 }
 
-=======
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 #wrapper{
 	max-width:1000px;
 	width:100%;
@@ -96,7 +93,6 @@ ol ol {
 	text-align: center;
 }
 
-<<<<<<< HEAD
 #content{
 	background: #F4F4F4;
 	float: left;
@@ -157,19 +153,13 @@ ol ol {
     transition: all .3s ease-out;
 }
 
-=======
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 .videoThumb{
 	width: 100%;
 	margin-top: 4px;
 }
 
 #videoSection{
-<<<<<<< HEAD
 	width: 29%;
-=======
-	width: 30%;
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 	float: left;
 	height: 200px;
 	padding: 15px;
@@ -177,11 +167,6 @@ ol ol {
 }
 
 #startButton{
-<<<<<<< HEAD
-=======
-	position: fixed;
-	top: 150px;
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
@@ -201,10 +186,7 @@ ol ol {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #7cacde;
-<<<<<<< HEAD
 	margin: 25px;
-=======
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
 }
 #startButton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
@@ -220,14 +202,7 @@ ol ol {
 #my_video_player{
 	position: fixed;
 	top: 50%;
-<<<<<<< HEAD
 	left: 45%;
 	margin-top: -300px;
 	margin-left: -400px;
 }
-=======
-	left: 50%;
-	margin-top: -300px;
-	margin-left: -400px;
-}
->>>>>>> 3d9d772fab7eddc80d6736b00070b5a56ec5f164
