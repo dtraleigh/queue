@@ -36,12 +36,14 @@
 				<?php include "form-script.php"; ?>
 			</div>
 			<div id="right-content">
-				<!-- Here, we output the submit button -->
-				<?php include "form-submit-script.php"; ?>
-				
-				<!-- List the selected videos in order. -->
-				<div id="selected">
-				
+				<div id="start-and-list">
+					<!-- Here, we output the submit button -->
+					<?php include "form-submit-script.php"; ?>
+					
+					<!-- List the selected videos in order. -->
+					<div id="selected">
+					
+					</div>
 				</div>
 			</div>
 			</form>

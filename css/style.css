@@ -106,8 +106,11 @@ ol ol {
 
 #right-content{
 	width:20%;
+	float:left;
+}
+
+#start-and-list{
 	position:fixed;
-	right:190px;
 }
 
 #queue-form{
