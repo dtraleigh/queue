@@ -10,7 +10,6 @@
 	
 	<!-- queue.js -->
 	<script type="text/javascript" src="js/queue.js"></script>
-	<script type="text/javascript" src="queue.js"></script>
 	
 	<!-- Video.js -->
 	<link href="video-js/video-js.css" rel="stylesheet" />

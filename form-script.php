@@ -1,5 +1,5 @@
 <?php
-	$dir = "c:/wamp/www/queue/videos/";
+	$dir = "videos/";
 	$dh  = opendir($dir);
 	$filename_output = "";
 		

@@ -1,6 +1,6 @@
 <?php
-	$dir = "c:/wamp/www/queue/videos/";
-	$thumbdir = "c:/wamp/www/queue/videos/thumbnails/";
+	$dir = "videos/";
+	$thumbdir = "videos/thumbnails/";
 	$dh  = opendir($dir);
 	$filename_output = "";
 	
