@@ -11,7 +11,7 @@ Tested and built with Windows 7 and the latest version of the Chrome browser.
 
 Prerequisites:
   - WAMP server
-  - Videos must be in .webm format
+  - Videos must be in .webm or .mp4 format
   - Videos need thumbnail in .jpg format
   - Familiarity with Video.js
 
